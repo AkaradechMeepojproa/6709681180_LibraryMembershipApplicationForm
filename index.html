@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <form>
 
         <label for="thaiName">ชื่อ - นามสกุล (ภาษาไทย) <span class="star">*</span></label><br>
@@ -54,10 +55,10 @@
         </div>
 
         <div class="radio">
-        <label>ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่?</label><br>
-        <input type="radio" id="subscribeYes" name="subscribe" value="yes">
+        <label>ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่? <span class="star">*</span></label><br>
+        <input type="radio" id="subscribeYes" name="subscribe" value="yes" required>
         <label for="subscribeYes">ใช่</label>
-        <input type="radio" id="subscribeNo" name="subscribe" value="no">
+        <input type="radio" id="subscribeNo" name="subscribe" value="no" required>
         <label for="subscribeNo">ไม่ใช่</label><br>
         </div>
 
