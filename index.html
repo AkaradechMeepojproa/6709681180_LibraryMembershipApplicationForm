@@ -24,6 +24,16 @@
         <label for="studentID">รหัสนักศึกษา <span class="star">*</span></label><br>
         <input type="text" id="studentID" name="studentID" required pattern="[0-9]{10}" title="กรุณากรอกตัวเลข 10 หลัก"><br>
 
+        <label for="faculty">คณะที่ศึกษา <span class="star">*</span></label><br>
+        <select id="faculty" name="faculty" required>
+            <option value="" disabled selected>เลือกคณะที่ศึกษา</option>
+            <option value="science">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+            <option value="engineering">คณะวิศวกรรมศาสตร์</option>
+            <option value="social">คณะสังคมศาสตร์</option>
+            <option value="arts">คณะศิลปศาสตร์</option>
+            <option value="medicine">คณะแพทยศาสตร์</option>
+        </select><br>
+
     </form>
 </body>
 </html>
