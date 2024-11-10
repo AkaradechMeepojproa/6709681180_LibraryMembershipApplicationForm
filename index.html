@@ -40,6 +40,24 @@
         <label for="birth">วันเดือนปีเกิด <span class="star">*</span></label><br>
         <input type="date" id="birth" name="birth" required><br>
 
+        <label for="bookType">ประเภทของหนังสือที่สนใจ</label><br>
+        <input type="checkbox" id="fiction" name="bookType" value="fiction">
+        <label for="fiction">นิยาย</label>
+        <input type="checkbox" id="nonfiction" name="bookType" value="nonfiction">
+        <label for="nonfiction">สารคดี</label>
+        <input type="checkbox" id="fantasy" name="bookType" value="fantasy">
+        <label for="fantasy">แฟนตาซี</label>
+        <input type="checkbox" id="science" name="bookType" value="science">
+        <label for="science">วิทยาศาสตร์</label><br>
+
+        <label>ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่?</label><br>
+        <input type="radio" id="subscribeYes" name="subscribe" value="yes">
+        <label for="subscribeYes">ใช่</label>
+        <input type="radio" id="subscribeNo" name="subscribe" value="no">
+        <label for="subscribeNo">ไม่ใช่</label><br>
+
+        <button type="submit">ส่งใบสมัคร</button>
+
     </form>
 </body>
 </html>
