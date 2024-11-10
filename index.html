@@ -6,7 +6,7 @@
     <title>Library_Membership</title>
 </head>
 <body>
-    <h1>แบบฟอร์มสมัครสมาชิกห้องสมุด</h1>
+    <h1>Library Membership Application Form</h1>
     <form>
 
         <label for="thaiName">ชื่อ - นามสกุล (ภาษาไทย) <span class="star">*</span></label><br>
@@ -20,6 +20,9 @@
         <label for="male">ชาย</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">หญิง</label><br>
+
+        <label for="studentID">รหัสนักศึกษา <span class="star">*</span></label><br>
+        <input type="text" id="studentID" name="studentID" required pattern="[0-9]{10}" title="กรุณากรอกตัวเลข 10 หลัก"><br>
 
     </form>
 </body>
